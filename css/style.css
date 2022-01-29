@@ -1,0 +1,139 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    height: 100vh;
+    background-color: #fefefe;
+}
+
+.container {
+    max-width: 114rem;
+    margin: 0 auto;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    text-transform: none;
+    font-family: "Changa", sans-serif;
+    font-size: 1.4rem;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+nav a {
+    color: #555555;
+}
+nav .nav-left .item {
+    padding-right: 1rem;
+}
+nav .nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav .nav-right .item {
+    padding-left: 1rem;
+}
+nav .nav-right i {
+    margin-right: 1rem;
+    font-size: 1.8rem;
+}
+nav .nav-right button {
+    padding: 6px 15px;
+    background-color: #3d99e6;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 94vh;
+    width: 100%;
+}
+.container .logo {
+    width: 30.2rem;
+    margin-bottom: 2rem;
+}
+.container .search-area .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
+.container .search-area .search .search-img {
+    transform: translateX(3.6rem);
+}
+.container .search-area .search input {
+    width: 100%;
+    max-width: 60rem;
+    height: 4rem;
+    border-radius: 24px;
+    border: 0;
+    border: 1px solid lightgray;
+    padding-left: 50px;
+}
+.container .search-area .search input:focus {
+    outline: none;
+}
+.container .search-area .search .ses img {
+    width: 2rem;
+    transform: translateX(-3.6rem);
+}
+.container .tool-btn .btn-item {
+    margin-right: 0.6rem;
+    width: 13rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: 0;
+    color: #9b8d8d;
+    transition: all 0.5s;
+}
+.container .tool-btn .btn-item:hover {
+    background-color: thistle;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2rem;
+    background-color: #f2f2f2;
+}
+footer .left a {
+    padding-right: 1rem;
+    color: #555555;
+}
+footer .right a {
+    padding-left: 1rem;
+    color: #555555;
+}
